@@ -1,0 +1,7 @@
+# 请求
+string command       # 命令: "reset", "set_mode", "set_battery"
+string param         # 参数（如模式名或目标电量）
+---
+# 响应
+bool success
+string message
